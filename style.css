@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    background-color: #f5f5edff;
+}
+.header-img{
+    height: 56px;
+    width: auto;
+}
+header{
+background-color: #f5f5edff;
+}
+.div-centered{
+    text-align: left; 
+  margin: auto; 
+  width: 412px;
+}
+.top-card{
+    width: 230px;
+    height: 130px;
+
+}
+@media (750px > width){
+    div.vid{
+        grid-template-columns: auto 1fr auto;
+    }
+}
+@media (1000px < width){
+    div.vid{
+        grid-template-columns: auto 672px auto;
+    }
+}
+@media (750px < width < 1000px){
+    div.vid{
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+}
+.vid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+}
+a{
+    text-decoration: none;
+}
+.end-box{
+    display: flex;
+
+}
+.end-social{
+    margin-right: 80px;
+}
+
